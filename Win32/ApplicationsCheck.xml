@@ -1,0 +1,27 @@
+<AutopilotCheck>
+    <Settings>
+	 <TotalScore>7</TotalScore>	
+	 <MaxTime>600</MaxTime>
+    </Settings>	
+    <ItemCheck>
+        <Type>InstalledProduct</Type>
+	<DisplayName>SCCM Client</DisplayName>
+        <Check>Configuration Manager Client</Check>
+	<File></File>
+        <Score>1</Score>
+    </ItemCheck>
+    <ItemCheck>
+        <Type>InstalledStore</Type>
+	<DisplayName>MS Company Portal</DisplayName>
+        <Check>Microsoft.CompanyPortal</Check>
+	<File></File>
+        <Score>2</Score>
+    </ItemCheck>
+    <ItemCheck>
+        <Type>InstalledProduct</Type>
+	<DisplayName>Office 365</DisplayName>
+        <Check>Microsoft Office 365 ProPlus - en-us</Check>
+	<File></File>
+        <Score>4</Score>
+    </ItemCheck>
+</AutopilotCheck>
